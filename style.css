@@ -9,13 +9,13 @@ body {
 .box {
   color: white;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.6);
   padding: 15px;
-  border-radius: 15px;
-  width: 20%;
+  border-radius: 10px;
+  width: 60%;
 }
 fieldset {
   border: 3px solid dodgerblue;
@@ -26,6 +26,15 @@ legend {
   text-align: center;
   background-color: dodgerblue;
   border-radius: 8px;
+}
+
+.campo {
+  margin-bottom: 1em;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+  margin-bottom: 0.2em;
 }
 .inputBox {
   position: relative;
@@ -53,6 +62,7 @@ legend {
   font-size: 12px;
   color: dodgerblue;
 }
+
 #data_nascimento {
   border: none;
   padding: 8px;
