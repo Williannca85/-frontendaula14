@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Formulário - Checkpoint 2</title>
-    <link rel="shortcut icon" href="./img/favicon.png">
+    <link rel="shortcut icon" href="./img/favicon.png" />
 
     <!--Trabalho grupo: Willian Almeida, Julio Campos e Luis Soares-->
   </head>
@@ -40,18 +40,44 @@
           <br /><br />
           <div class="inputBox">
             <input
-              type="tel" name="telefone" id="telefone" class="inputUser" required/>
+              type="tel"
+              name="telefone"
+              id="telefone"
+              class="inputUser"
+              required
+            />
             <label for="telefone" class="labelInput">Telefone</label>
           </div>
 
           <div class="campo">
-          <p>Sexo:</p>
-          <input type="radio" id="feminino" name="genero" value="feminino" required/>
-          <label for="feminino">Feminino</label><!--<br/>-->
-          <input type="radio" id="masculino" name="genero" value="masculino" required/>
-          <label for="masculino">Masculino</label><!--<br />-->
-          <input type="radio" id="outro" name="genero" value="outro" required />
-          <label for="outro">Outro</label><!--<br /><br />-->
+            <p>Sexo:</p>
+            <input
+              type="radio"
+              id="feminino"
+              name="genero"
+              value="feminino"
+              required
+            />
+            <label for="feminino">Feminino</label
+            ><!--<br/>-->
+            <input
+              type="radio"
+              id="masculino"
+              name="genero"
+              value="masculino"
+              required
+            />
+            <label for="masculino">Masculino</label
+            ><!--<br />-->
+            <input
+              type="radio"
+              id="outro"
+              name="genero"
+              value="outro"
+              required
+            />
+            <label for="outro">Outro</label
+            ><!--<br /><br />-->
           </div>
 
           <div class="campo">
@@ -62,22 +88,73 @@
               <option>Não</option>
             </select>
           </div>
-          
-          <label class="data" for="data_nascimento"><b>Data de Nascimento:</b></label>
+
+          <label class="data" for="data_nascimento"
+            ><b>Data de Nascimento:</b></label
+          >
           <input
-            class="data_nascimento" type="date" name="data_nascimento" id="data_nascimento" required/>
+            class="data_nascimento"
+            type="date"
+            name="data_nascimento"
+            id="data_nascimento"
+            required
+          />
           <br /><br /><br />
+
+          <div class="campo">
+            <!-- <label><strong>LocaisdeInteresses</strong></label> -->
+            <label for="Interesses"><strong>Ponto de Interesse:</strong></label>
+            <label>
+              <input
+                type="radio"
+                name="Interesses"
+                value="OpArame"
+                checked
+                required
+              />Op.de Arame</label>
+            <label>
+              <input
+                type="radio"
+                name="Interesses"
+                value="PqTangua"
+                required
+              />Pq. Tanguá</label>
+            <label>
+              <input
+                type="radio"
+                name="Interesses"
+                value="JdBotanico"
+                required
+              />Jd. Botânico</label>
+          </div>
 
           <div class="campo">
             <!-- <label><strong>Interesses</strong></label> -->
             <label for="Interesses"><strong>Interesses:</strong></label>
             <label>
-              <input type="radio" name="Interesses" value="turismo" checked required>Turismo</label>
+              <input
+                type="radio"
+                name="Interesses"
+                value="turismo"
+                checked
+                required
+              />Turismo</label
+            >
             <label>
-              <input type="radio" name="Interesses" value="morador" required>Residente
+              <input
+                type="radio"
+                name="Interesses"
+                value="morador"
+                required
+              />Residente
             </label>
             <label>
-              <input type="radio" name="Interesses" value="estudante" required>Estudante
+              <input
+                type="radio"
+                name="Interesses"
+                value="estudante"
+                required
+              />Estudante
             </label>
           </div>
 
@@ -114,9 +191,10 @@
             <label for="endereco" class="labelInput">Endereço</label>
           </div>
           <br /><br />
-          <div><!--Aqui estão os botões-->
-          <input type="submit" name="submit" id="botao"> 
-          <input type="reset" name="reset" id="botao">
+          <div>
+            <!--Aqui estão os botões-->
+            <input type="submit" name="submit" id="botao" />
+            <input type="reset" name="reset" id="botao" />
           </div>
         </fieldset>
       </form>
